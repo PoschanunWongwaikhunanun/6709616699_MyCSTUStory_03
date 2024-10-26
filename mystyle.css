@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box
+}
+
+nav {
+    display:grid;
+    justify-content:center;
+    border: 4px solid green;
+    padding: 50px;
+}
+
+@media screen and (max-width: 768px) {
+h1 {
+    background-color: bisque; 
+    font-size: 300%;
+    text-align: center;
+    padding: 2cqmax;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+h2{
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 200%;
+}
+
+h3{
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 135%;
+}
+
+p{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 135%;
+}
+
+body{
+    background-color: #666666;
+    background-image: url('https://static.vecteezy.com/system/resources/thumbnails/008/617/161/small/abstract-gradient-pastel-blue-and-purple-background-neon-pastel-color-template-for-website-or-presentation-free-free-vector.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+}
+
+@media screen and (max-width: 360px) {
+    h1 {
+        background-color: bisque; 
+        font-size: 300%;
+        text-align: center;
+        padding: 2cqmax;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+    
+    h2{
+        text-align: center;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size: 200%;
+    }
+    
+    h3{
+        text-align: center;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size: 135%;
+    }
+    
+    p{
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size: 135%;
+    }
+    
+    body{
+        background-color: #666666;
+        background-image: url('https://static.vecteezy.com/system/resources/thumbnails/008/617/161/small/abstract-gradient-pastel-blue-and-purple-background-neon-pastel-color-template-for-website-or-presentation-free-free-vector.jpg');
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    
+    }
